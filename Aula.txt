@@ -1,0 +1,37 @@
+Disciplina React Native
+Professor ERIC
+
+AULA 01
+
+# Pesquisar sobre os componentes do React
+google.com.br > github react native awesome
+
+# Ferramentas para rodar o React na Web
+react native web
+react xp
+
+# Instalar React Native
+
+# Para emulador Android, configuração: 
+Usar Next 5
+Usar Manshimelow x86 para obter melhor peformance no desktop.
+Instalar o driver "Intel x86 Emulator Accelerator (HAXM installer)" para obter melhor peformance no desktop.
+Minimum SDK Usar: API 23: Android 6.0 (Marshmallow)
+
+# Para emular o projeto no anroid
+$ react-native run-android
+
+# Nota: Aplicação desktop para React-Native "Expo XDE". Para usar linha de comando usar create-react-native-app e no Device instalar o Expo atraves da loja.
+
+# Comando para criar o projeto usando o Expo
+$ reate-react-native-app <nome do projeto>
+
+# Comando para rodar o projeto usando o Expo
+$ npm Start
+
+# Sobre JSX: Combina JavaScript e XML para criar View. Atalho React.CreateElement(). Conceito de arquivo unico (HTML, Similar ao CSS, JS).
+
+# Plugin React-Native para o VSCode 
+> React Naive Tools
+
+# No Android para abrir o debug no emulador basta apertar Ctrl+M, se for no Device deve agitar o aparelho ou no codigo fonte digitar a palavra debugger.

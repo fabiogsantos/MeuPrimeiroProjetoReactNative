@@ -9,7 +9,11 @@ export default class MyComponent extends Comment {
     constructor(props) {
         super(props)
         // Apenas para terceira e quarta opção para que o this do metodo INC receba o this do componente.
-        this.inc = this.inc.bind(this)
+        //this.inc = this.inc.bind(this)
+    }
+
+    componentWillReceiveProps(nextPros) {
+        this.setState({valor: nextPros.inicial})
     }
 
     inc(evt) {
