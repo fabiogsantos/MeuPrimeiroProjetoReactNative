@@ -1,4 +1,4 @@
-Disciplina React Native
+﻿Disciplina React Native
 Professor ERIC
 
 AULA 01
@@ -11,6 +11,7 @@ react native web
 react xp
 
 # Instalar React Native
+npm install -g react-native-cli 
 
 # Para emulador Android, configuração: 
 Usar Next 5
@@ -22,9 +23,10 @@ Minimum SDK Usar: API 23: Android 6.0 (Marshmallow)
 $ react-native run-android
 
 # Nota: Aplicação desktop para React-Native "Expo XDE". Para usar linha de comando usar create-react-native-app e no Device instalar o Expo atraves da loja.
+$ npm i -g create-react-native-app
 
 # Comando para criar o projeto usando o Expo
-$ reate-react-native-app <nome do projeto>
+$ create-react-native-app <nome do projeto>
 
 # Comando para rodar o projeto usando o Expo
 $ npm Start
